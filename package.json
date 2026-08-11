@@ -1,0 +1,30 @@
+{
+  "name": "dip-n-devour",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Dip N Devour (DND) - Full-Stack Food Business Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lucide-react": "^1.31.0",
+    "qrcode": "^1.5.4",
+    "razorpay": "^2.9.8",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.1"
+  }
+}
